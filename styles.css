@@ -231,12 +231,19 @@ p.noticia {
     padding-bottom: 10px;
   }
 
-
-
 h1 {
-  font-family: "Source Sans Pro", sans-serif;
   color: #2A527A;
+  font-family: "Poppins", sans-serif;
+  font-size: 45px;
+  margin-top: 10px;
+  margin-bottom: 40px;
   text-align: left; 
+}
+
+@media (max-width: 991px) {
+  h1 {
+    font-size: 30px;
+  }
 }
 
 h2 {
@@ -398,9 +405,20 @@ p {
 	width: 100%;
 	height: auto;
 }
+@media (max-width: 991px) {
+  .gallery-wrapper {
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+  }
 
+}
 form {
-  font-family: "Poppins", sans-serif; 
+  font-family: "Poppins", sans-serif;
+}
+
+#carouselExampleIndicators {
+  width: 60%;
+  margin: auto;
 }
 
 .footer {
