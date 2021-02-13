@@ -12,47 +12,61 @@
     <link rel="stylesheet" type="text/css" href="styles.css" media="all">
 </head>
 <header>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-      <a href="index.html">  
-        <img class="logoinicio" src="images/ttelemedic.png">
-      </a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarText">
-          <ul class="navbar-nav ml-auto">
-            <li class="nav-item active">
-              <a class="nav-link" href="index.html">HOME <span class="sr-only">(current)</span></a>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark navbar-fixed-top">
+    <a href="index.html">  
+      <img class="logoinicio" src="images/LOGO.png">
+    </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarText">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="index.html">HOME <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="equipo.html">EQUIPO </a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="experiencias.html">EXPERIENCIAS </a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link" href="quienes somos.html">QUIENES SOMOS </a>
+          <li class="nav-item">
+            <a class="nav-link" href="categorías.html">CATEGORIAS </a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="contacto.html">CONTACTO </a>
             </li>
-            <li class="nav-item">
-                <a class="nav-link" href="servicios.html">SERVICIOS </a>
-              </li>
-            <li class="nav-item">
-              <a class="nav-link" href="categorías.html">CATEGORIAS </a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="contacto.html">CONTACTO </a>
-              </li>
-          </ul>
-        </div>
-      </nav>
+        </ul>
+      </div>
+    </nav>
 </header>
 <body>
-    <div class="padrecategorias">
-        <div class="titulo">CATEGORÍAS</div>
-        <img class="img1 imagenes_categorias" src="images/cardio.webp">
-        <div class="desc1">Contamos con equipamento para realizar electrocardiogramas desde la comodidad de su vivienda.</div>
-        <img class="img2 imagenes_categorias" src="images/neumo.jpg">
-        <div class="desc2">Nuestros espirómetros de primera línea brindan soluciones para problemas de asma o broncoespasmos.</div>
-        <img class="img3 imagenes_categorias" src="images/derma.jpg">
-        <div class="desc3">Las cámaras con lupa fueron elaboradas para tratar los principales síntomas en piel.</div>
-        <img class="img4 imagenes_categorias" src="images/odonto.jpg">
-        <div class="desc4">Nuestras cámaras led garantizan la calidad en imágenes bucales para el especialista.</div>
-</div>
-
+  <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+    <ol class="carousel-indicators">
+      <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+      <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+      <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+    </ol>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img class="d-block w-100" src="images/carresp.png" alt="First slide">
+      </div>
+      <div class="carousel-item">
+        <img class="d-block w-100" src="images/carrderma.png" alt="Second slide">
+      </div>
+      <div class="carousel-item">
+        <img class="d-block w-100" src="images/carrelect.png" alt="Third slide">
+      </div>
+    </div>
+    <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </a>
+  </div>
 <br>
 <br>
 <footer class="footer">
@@ -62,5 +76,11 @@
     <img class="redes" src="images/facebook.svg">
     <img class="redes" src="images/gmail.svg">
 </footer>
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" 
+crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" 
+crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js" integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s" 
+crossorigin="anonymous"></script>
 </body>
 </html>
